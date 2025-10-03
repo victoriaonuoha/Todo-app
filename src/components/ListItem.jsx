@@ -1,7 +1,7 @@
-    import styles from "../components/ListItem.module.css"
+    import styles from "./ListItem.module.css"
 export default function ListItem({ item, todos, setTodos }) {
   function handleDelete(item) {
-    console.log("This has been deleted", item);
+    console.log("This has been eleted", item);
 
     setTodos(todos.filter((member) => member !== item));
   }
